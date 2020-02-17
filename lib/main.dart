@@ -9,8 +9,7 @@ class ContactApp extends StatelessWidget {
   // This widget is the root of your application.
   final routes = <String,WidgetBuilder>{
     loginPageTag: (context) => LoginPage(),
-    userListPageTag: (context) => UserListPage()
-
+    userListPageTag: (context) => UserListPage(),
   };
 
   @override

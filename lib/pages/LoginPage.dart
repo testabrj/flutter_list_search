@@ -42,7 +42,7 @@ class LoginPage extends StatelessWidget {
           borderRadius: BorderRadius.circular(24),
 
         ),
-        onPressed:(){} ,
+        onPressed:(){Navigator.of(context).pushNamed(userListPageTag);} ,
         padding:EdgeInsets.all(12),
         color: appGreyColor,
         child:Text(loginButtonText,style:TextStyle(color:Colors.white)),
