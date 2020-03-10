@@ -8,6 +8,8 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="flutter_app_test"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -26,5 +28,9 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+
     </application>
+
+
 </manifest>

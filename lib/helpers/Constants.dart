@@ -9,9 +9,12 @@ Color appGreyColor = Color.fromRGBO(64, 75, 96, .9);
 const appTitle = "Contactly";
 const pinCodeHintText = "Pin Code";
 const loginButtonText = "Login";
+const lastLoginTime = 'loggedInTime';
 
 // Images
 Image appLogo = Image.asset('assets/images/flutter-logo-round.png');
+
+
 
 // Sizes
 const bigRadius = 66.0;
